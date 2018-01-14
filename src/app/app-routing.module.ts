@@ -15,7 +15,7 @@ const appRoutes: Routes = [
         RouterModule.forRoot(appRoutes, {preloadingStrategy: PreloadAllModules}) // forRoot() 2nd argument is js object to configure this router module..'PreloadAllModules' loads all lazy loaded modules after the app has been loaded 
     ],
     exports: [
-        RouterModule
+        RouterModule 
     ]
 })
 
